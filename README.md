@@ -4,7 +4,7 @@
 
 # Environment
 
-Set this corresponding env and config you aws cli with `aws configure`
+Set this corresponding env and config your aws cli with `aws configure`
 
 ```
 export AWS_REGION=ap-southeast-1
