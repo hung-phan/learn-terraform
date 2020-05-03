@@ -10,6 +10,12 @@ Set this corresponding env and config your aws cli with `aws configure`
 export AWS_REGION=ap-southeast-1
 ```
 
+Generate key pair in project folder
+
+```
+ssh-keygen -f mykey
+```
+
 # Demo overview
 Demo Directory | Description
 ------------ | -------------

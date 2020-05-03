@@ -6,14 +6,14 @@ variable "INSTANCE_TYPE" {
 }
 
 variable "PUBLIC_SUBNETS" {
-  type = list
+  type = list(string)
 }
 
 variable "VPC_ID" {
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "../mykey.pub"
 }
 
 data "aws_ami" "ubuntu" {
