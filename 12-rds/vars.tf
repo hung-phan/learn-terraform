@@ -19,6 +19,4 @@ variable "AMIS" {
   }
 }
 
-variable "RDS_PASSWORD" {
-}
-
+variable "RDS_PASSWORD" {}
