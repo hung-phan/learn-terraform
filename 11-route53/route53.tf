@@ -1,10 +1,10 @@
 resource "aws_route53_zone" "newtech-academy" {
-  name = "newtech.academy"
+  name = "hungphan.com"
 }
 
 resource "aws_route53_record" "server1-record" {
   zone_id = aws_route53_zone.newtech-academy.zone_id
-  name    = "server1.newtech.academy"
+  name    = "server1.hungphan.com"
   type    = "A"
   ttl     = "300"
   records = ["104.236.247.8"]
@@ -12,7 +12,7 @@ resource "aws_route53_record" "server1-record" {
 
 resource "aws_route53_record" "www-record" {
   zone_id = aws_route53_zone.newtech-academy.zone_id
-  name    = "www.newtech.academy"
+  name    = "www.hungphan.com"
   type    = "A"
   ttl     = "300"
   records = ["104.236.247.8"]
@@ -20,7 +20,7 @@ resource "aws_route53_record" "www-record" {
 
 resource "aws_route53_record" "mail1-record" {
   zone_id = aws_route53_zone.newtech-academy.zone_id
-  name    = "newtech.academy"
+  name    = "hungphan.com"
   type    = "MX"
   ttl     = "300"
   records = [

@@ -38,7 +38,7 @@ module "my-alb" {
   ALB_NAME           = "my-alb"
   VPC_SUBNETS        = join(",", module.vpc.public_subnets)
   DEFAULT_TARGET_ARN = module.my-service.target_group_arn
-  DOMAIN             = "*.ecs.newtech.academy"
+  DOMAIN             = "*.ecs.hungphan.com"
   INTERNAL           = false
   ECS_SG             = module.my-ecs.cluster_sg
 }
@@ -49,6 +49,6 @@ module "my-alb-rule" {
   PRIORITY         = 100
   TARGET_GROUP_ARN = module.my-service.target_group_arn
   CONDITION_FIELD  = "host-header"
-  CONDITION_VALUES = ["subdomain.ecs.newtech.academy"]
+  CONDITION_VALUES = ["subdomain.ecs.hungphan.com"]
 }
 
