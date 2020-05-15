@@ -6,4 +6,3 @@ resource "aws_s3_bucket" "b" {
     Name = "mybucket-c29df1"
   }
 }
-
