@@ -5,4 +5,3 @@ resource "aws_key_pair" "mykeypair" {
     ignore_changes = [public_key]
   }
 }
-
