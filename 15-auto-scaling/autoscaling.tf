@@ -22,4 +22,3 @@ resource "aws_autoscaling_group" "example-autoscaling" {
     propagate_at_launch = true
   }
 }
-

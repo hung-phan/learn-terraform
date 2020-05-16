@@ -56,4 +56,3 @@ resource "aws_cloudwatch_metric_alarm" "example-cpu-alarm-scaledown" {
   actions_enabled = true
   alarm_actions   = [aws_autoscaling_policy.example-cpu-policy-scaledown.arn]
 }
-
