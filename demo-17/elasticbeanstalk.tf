@@ -108,4 +108,3 @@ resource "aws_elastic_beanstalk_environment" "app-prod" {
     value     = aws_db_instance.mariadb.endpoint
   }
 }
-

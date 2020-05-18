@@ -36,4 +36,3 @@ resource "aws_db_instance" "mariadb" {
     Name = "mariadb-instance"
   }
 }
-

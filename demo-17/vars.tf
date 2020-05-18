@@ -12,4 +12,3 @@ variable "PATH_TO_PUBLIC_KEY" {
 
 variable "RDS_PASSWORD" {
 }
-

@@ -69,4 +69,3 @@ name       = "app-attach4"
 roles      = [aws_iam_role.elasticbeanstalk-service-role.name]
 policy_arn = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkEnhancedHealth"
 }
-

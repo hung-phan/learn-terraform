@@ -51,4 +51,3 @@ module "my-alb-rule" {
   CONDITION_FIELD  = "host-header"
   CONDITION_VALUES = ["subdomain.ecs.hungphan.com"]
 }
-
