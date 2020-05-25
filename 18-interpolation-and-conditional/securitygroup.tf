@@ -45,4 +45,3 @@ resource "aws_security_group" "allow-ssh-dev" {
     Name = "allow-ssh"
   }
 }
-
