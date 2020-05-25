@@ -9,4 +9,3 @@ variable "project_tags" {
     Environment = "Production"
   }
 }
-
